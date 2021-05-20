@@ -1,0 +1,41 @@
+/* .App {
+    text-align: center;
+  } */
+  
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    color: white;
+  }
+  
+  .nav-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+
+  .menu-bar{
+    float: left;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    color: #f2f2f2;
+    background-color: #333;
+}
+
+  .form-field{
+    border-radius: 10px;
+    border-color: #ced4da;
+}
+
+.radio-button{
+  border: 0.5px solid #ced4da;
+  border-radius: 2px;
+  padding: 3px;
+}

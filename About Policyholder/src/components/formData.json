@@ -1,0 +1,388 @@
+[
+    {
+        "personal_details_page_label": "Personal details",
+        "personal_details_fields": [
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Policy Holders Title",
+                        "field_label": "Policy Holders Title",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Mr."
+                            },
+                            {
+                                "option_label": "Ms."
+                            },
+                            {
+                                "option_label": "Mrs."
+                            },
+                            {
+                                "option_label": "Dr."
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "Gender_Id",
+                        "field_label": "Gender",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Male"
+                            },
+                            {
+                                "option_label": "Female"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Policy Holder's First Name_Id",
+                        "field_label": "Policy Holder's First Name",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "Policy Holder's Last Name_Id",
+                        "field_label": "Policy Holder's Last Name",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_mandatory":"yes",
+
+                        "field_value": "",
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Martial Status_Id",
+                        "field_label": "Martial Status",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Single"
+                            },
+                            {
+                                "option_label": "Married"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "Date of Birth_Id",
+                        "field_label": "Date of Birth",
+                        "field_type": "date",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Policy holder Citizenship_Id",
+                        "field_label": "Policy holder Citizenship",
+                        "field_type": "select",
+                        "field_value": "",
+                        
+
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "US Citizenship"
+                            },
+                            {
+                                "option_label": "Indian Citizenship"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "Is the Policy holder Citizenship by birth_Id",
+                        "field_label": "Is the Policy holder Citizenship by birth",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Yes"
+                            },
+                            {
+                                "option_label": "No"
+                            }
+                        ]
+                    }
+                ]
+            }
+           
+        ]
+    },
+    {
+        "contact_details_page_label": "Contact details",
+        "contact_details_fields": [
+            {
+                "layout": "row",
+                "fields": [
+                    
+                    {
+                        "field_id": "Contact Number_Id",
+                        "field_label": "Contact Number",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "Email Address_Id",
+                        "field_label": "Email Address",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Address1_Id",
+                        "field_label": "Address1",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "Address2_Id",
+                        "field_label": "Address2",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Country_Id",
+                        "field_label": "Country",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "India"
+                            },
+                            {
+                                "option_label": "US"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "City/Town_Id",
+                        "field_label": "City/Town",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": "",
+
+                        "field_options": [
+                            {
+                                "option_label": "Chennai"
+                            },
+                            {
+                                "option_label": "Coimbatore"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "",
+                "fields": [
+                    {
+                        "field_id": "Postal Code_Id",
+                        "field_label": "Postal Code",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "other_details_page_label": "Other details",
+        "other_details_fields": [
+            {
+                "layout": "",
+                "fields": [
+                    {
+                        "field_id": "Policy Ownership type_Id",
+                        "field_label": "Policy Ownership type",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "insured"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Policy holder Occupation_Id",
+                        "field_label": "Policy holder Occupation",
+                        "field_type": "text",
+                        "field_value": "",
+                        "errors": "",
+                        "field_mandatory":"yes"
+
+                        
+                    },
+                    {
+                        "field_id": "Occupation Type_Id",
+                        "field_label": "Occupation Type",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": ""
+
+                        
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Any other Car regisitered in same Policy holder's Name_Id",
+                        "field_label": "Any other Car regisitered in same Policy holder's Name?",
+                        "field_type": "radio",
+                        "field_mandatory":"yes",
+
+                        "field_value": "",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Yes"
+                            },
+                            {
+                                "option_label": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "Do Policy holder have any Nominee_Id",
+                        "field_label": "Do Policy holder have any Nominee?",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "errors": "",
+                        "field_mandatory":"yes",
+
+                        "field_options": [
+                            {
+                                "option_label": "Yes"
+                            },
+                            {
+                                "option_label": "No"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Do Policy Holder having a Driver_Id",
+                        "field_label": "Do Policy Holder having a Driver?",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "errors": "",
+                        "field_mandatory":"yes",
+
+                        "field_options": [
+                            {
+                                "option_label": "Yes"
+                            },
+                            {
+                                "option_label": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "How many Drivers have been employed_Id",
+                        "field_label": "How many Drivers have been employed?",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory":"yes",
+
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "1"
+                            },
+                            {
+                                "option_label": "2"
+                            },
+                            {
+                                "option_label": "3"
+                            },
+                            {
+                                "option_label": "4+"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
