@@ -1,0 +1,938 @@
+[
+    {
+        "personal_details_page_label": "Personal details",
+        "page_description": " Please fill the following vehicle details for the quote",
+        "personal_details_fields": [
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Policy Holders Title",
+                        "field_label": "Policy Holders Title",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Mr."
+                            },
+                            {
+                                "option_label": "Ms."
+                            },
+                            {
+                                "option_label": "Mrs."
+                            },
+                            {
+                                "option_label": "Dr."
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "Gender_Id",
+                        "field_label": "Gender",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Male"
+                            },
+                            {
+                                "option_label": "Female"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Policy Holder's First Name_Id",
+                        "field_label": "Policy Holder's First Name",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "Policy Holder's Last Name_Id",
+                        "field_label": "Policy Holder's Last Name",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_mandatory": "yes",
+                        "field_value": "",
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Martial Status_Id",
+                        "field_label": "Martial Status",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Single"
+                            },
+                            {
+                                "option_label": "Married"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "Date of Birth_Id",
+                        "field_label": "Date of Birth",
+                        "field_type": "date",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Policy holder Citizenship_Id",
+                        "field_label": "Policy holder Citizenship",
+                        "field_type": "select",
+                        "field_value": "",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "US Citizenship"
+                            },
+                            {
+                                "option_label": "Indian Citizenship"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "Is the Policy holder Citizenship by birth_Id",
+                        "field_label": "Is the Policy holder Citizenship by birth",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Yes"
+                            },
+                            {
+                                "option_label": "No"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contact_details_page_label": "Contact details",
+        "contact_details_fields": [
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Contact Number_Id",
+                        "field_label": "Contact Number",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "Email Address_Id",
+                        "field_label": "Email Address",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Address1_Id",
+                        "field_label": "Address Line1",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "Address2_Id",
+                        "field_label": "Address Line2",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Country_Id",
+                        "field_label": "County",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "United Kingdom"
+                            },
+                            {
+                                "option_label": "United States"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "City/Town_Id",
+                        "field_label": "City/Town",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "San Francisco"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "",
+                "fields": [
+                    {
+                        "field_id": "Postal Code_Id",
+                        "field_label": "Postal Code",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "",
+                "fields": [
+                    {
+                        "field_id": "findAddress_Id",
+                        "field_label": "Find Address",
+                        "field_placeholder": "",
+                        "field_type": "button",
+                        "field_value": "",
+                        "field_mandatory": "",
+                        "errors": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "other_details_page_label": "Other details",
+        "other_details_fields": [
+            {
+                "layout": "",
+                "fields": [
+                    {
+                        "field_id": "Policy Ownership type_Id",
+                        "field_label": "Policy Ownership type",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "insured"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Policy holder Occupation_Id",
+                        "field_label": "Policy holder Occupation",
+                        "field_type": "text",
+                        "field_value": "",
+                        "errors": "",
+                        "field_mandatory": "yes"
+                    },
+                    {
+                        "field_id": "Occupation Type_Id",
+                        "field_label": "Occupation Type",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Policy holder industry_Id",
+                        "field_label": "Enter the industry where the policy holder is occupied in",
+                        "field_type": "select",
+                        "field_value": "",
+                        "errors": "",
+                        "field_mandatory": "yes",
+                        "field_options": [
+                            {
+                                "option_label": "Insurance Industry"
+                            },
+                            {
+                                "option_label": "Auto mobile Industry"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "policy holder Occupation Type_Id",
+                        "field_label": "Does the policy holder have any other occupation?",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Yes"
+                            },
+                            {
+                                "option_label": "No"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "policy holder driver_Id",
+                        "field_label": "Will the policy holder be a named driver for the car?",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Yes"
+                            },
+                            {
+                                "option_label": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "other car_Id",
+                        "field_label": "How many other car does the policy holder have at home?",
+                        "field_type": "text",
+                        "field_value": "",
+                        "errors": "",
+                        "field_mandatory": "yes"
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Any other Car regisitered in same Policy holder's Name_Id",
+                        "field_label": "Any other Car regisitered in same Policy holder's Name?",
+                        "field_type": "radio",
+                        "field_mandatory": "yes",
+                        "field_value": "",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Yes"
+                            },
+                            {
+                                "option_label": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "Do Policy holder have any Nominee_Id",
+                        "field_label": "Do Policy holder have any Nominee?",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "errors": "",
+                        "field_mandatory": "yes",
+                        "field_options": [
+                            {
+                                "option_id": "car_modifications_yes",
+                                "option_label": "Yes"
+                            },
+                            {
+                                "option_label": "No"
+                            }
+                        ],
+                        "layout": "row",
+                        "yes_options": [
+                            {
+                                "field_id": "nominee's first name_Id",
+                                "field_label": "Enter the nominee's first name ",
+                                "field_mandatory": "",
+                                "field_type": "text",
+                                "field_value": ""
+                            },
+                            {
+                                "field_id": "nominee's last name_Id ",
+                                "field_label": "Enter the nominee's last name ",
+                                "field_mandatory": "",
+                                "field_type": "text",
+                                "field_value": ""
+                            },
+                            {
+                                "field_id": "nominee's gender_Id",
+                                "field_label": "Enter the nominee's gender",
+                                "field_type": "radio",
+                                "field_value": "",
+                                "field_mandatory": "yes",
+                                "errors": "",
+                                "field_options": [
+                                    {
+                                        "option_label": "Male"
+                                    },
+                                    {
+                                        "option_label": "Female"
+                                    }
+                                ]
+                            },
+                            {
+                                "field_id": " nominee's date of birth _Id",
+                                "field_label": "Enter the nominee's date of birth ",
+                                "field_type": "date",
+                                "field_value": "",
+                                "field_mandatory": "yes",
+                                "errors": ""
+                            },
+                            {
+                                "field_id": " full name of the minor nominee's appointee_Id",
+                                "field_label": "Enter the full name of the minor nominee's appointee ",
+                                "field_mandatory": "",
+                                "field_type": "text",
+                                "field_value": ""
+                            },
+                            {
+                                "field_id": "nominee's relationship with the policy holder_Id",
+                                "field_label": "Select the nominee's relationship with the policy holder ",
+                                "field_type": "select",
+                                "field_value": "",
+                                "field_mandatory": "yes",
+                                "errors": "",
+                                "field_options": [
+                                    {
+                                        "option_label": "Spouse"
+                                    },
+                                    {
+                                        "option_label": "Parent - Father"
+                                    },
+                                    {
+                                        "option_label": "Parent - Mother"
+                                    },
+                                    {
+                                        "option_label": "Child"
+                                    },
+                                    {
+                                        "option_label": "Legal Heir"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Do Policy Holder having a Driver_Id",
+                        "field_label": "Do Policy Holder having a Driver?",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "errors": "",
+                        "field_mandatory": "yes",
+                        "field_options": [
+                            {
+                                "option_label": "Yes"
+                            },
+                            {
+                                "option_label": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "How many Drivers have been employed_Id",
+                        "field_label": "How many Drivers have been employed?",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "1"
+                            },
+                            {
+                                "option_label": "2"
+                            },
+                            {
+                                "option_label": "3"
+                            },
+                            {
+                                "option_label": "4+"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "",
+                "fields": [
+                    {
+                        "field_id": "conviction_button",
+                        "field_label": "Add Conviction",
+                        "field_mandatory": "no",
+                        "field_placeholder": "",
+                        "field_type": "conviction_button",
+                        "field_value": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "about_driver_page_label": "About Driver",
+        "about_driver_fields": [
+            {
+                "layout": "",
+                "fields": [
+                    {
+                        "field_id": "car_drive_type",
+                        "field_label": "Select the Driver's title",
+                        "field_mandatory": "yes",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Mr."
+                            },
+                            {
+                                "option_label": "Ms."
+                            },
+                            {
+                                "option_label": "Mrs."
+                            },
+                            {
+                                "option_label": "Dr."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Driver's First Name_Id",
+                        "field_label": "Enter the Driver's First Name",
+                        "field_mandatory": "yes",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_value": "",
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "Driver's Last Name_Id",
+                        "field_label": "Enter the Driver's Last Name",
+                        "field_mandatory": "yes",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_value": "",
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "",
+                "fields": [
+                    {
+                        "field_id": "car_drive_type",
+                        "field_label": "Enter the Driver's gender",
+                        "field_mandatory": "yes",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Male",
+                                "option_value": "Male"
+                            },
+                            {
+                                "option_label": "Female",
+                                "option_value": "Female"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "registration_date",
+                        "field_label": "Date of Birth",
+                        "field_mandatory": "no",
+                        "field_type": "date",
+                        "field_value": "",
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "car_drive_type",
+                        "field_label": "Select the Driver's marital Status",
+                        "field_mandatory": "yes",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Single"
+                            },
+                            {
+                                "option_label": "Married"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Driver's permanent citizen_Id",
+                        "field_label": "Select the Country the Driver is a permanent citizen of",
+                        "field_mandatory": "no",
+                        "field_placeholder": "",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "US"
+                            },
+                            {
+                                "option_label": "UK"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "car_drive_type",
+                        "field_label": "Is the Driver a citizen by brith?",
+                        "field_mandatory": "yes",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Yes",
+                                "option_value": "Yes"
+                            },
+                            {
+                                "option_label": "No",
+                                "option_value": "No"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "driver's Contact Number_Id",
+                        "field_label": "Contact Number",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "driver's Email Address_Id",
+                        "field_label": "Email Address",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": " ",
+                "fields": [
+                    {
+                        "field_id": "checkDriverAddress_Id",
+                        "field_label": "Is Driver address same as policy holder address? ",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory": "no",
+                        "field_options": [
+                            {
+                                "option_label": "Yes",
+                                "option_id": "sameAddress"
+                            },
+                            {
+                                "option_label": "No",
+                                "option_id": "differentAddress"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "driverAddress1_Id",
+                        "field_label": "Address1",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "driverAddress2_Id",
+                        "field_label": "Address2",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "driverCountry_Id",
+                        "field_label": "Country",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "driverCity/Town_Id",
+                        "field_label": "City/Town",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "",
+                "fields": [
+                    {
+                        "field_id": "driverPostal Code_Id",
+                        "field_label": "Postal Code",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "License",
+                        "field_label": "Select the Driver's license type",
+                        "field_placeholder": "",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Full UK License"
+                            },
+                            {
+                                "option_label": "Provisonal UK License"
+                            },
+                            {
+                                "option_label": "Other / None"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "license cancelled _Id",
+                        "field_label": "Have you ever had license cancelled / suspended or declared void?",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory": "no",
+                        "field_options": [
+                            {
+                                "option_label": "Yes"
+                            },
+                            {
+                                "option_label": "No"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "number",
+                        "field_label": "Would you like to enter the Driver's driving license number?",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory": "no",
+                        "field_options": [
+                            {
+                                "option_label": "Yes",
+                                "option_value": "Yes"
+                            },
+                            {
+                                "option_label": "No",
+                                "option_value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "Licensenumber1",
+                        "field_label": "Select how long has the driver held this license?",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "field_options": [
+                            {
+                                "option_label": "Up to 1 year"
+                            },
+                            {
+                                "option_label": "Up to 2 to 19 years"
+                            },
+                            {
+                                "option_label": "Over 20 years"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "Driver's Licensenumber_Id",
+                        "field_label": "Enter the Driver's driving license number",
+                        "field_type": "text",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "medical conditions",
+                        "field_label": "Does the Driver have any DVLA-reported medical conditions or disabilities?",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "field_options": [
+                            {
+                                "option_label": "Yes",
+                                "option_value": "Yes"
+                            },
+                            {
+                                "option_label": "No",
+                                "option_value": "No"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "medical conditions",
+                        "field_label": "Select the medical conditions or disabilities",
+                        "field_mandatory": "no",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "1"
+                            },
+                            {
+                                "option_label": "2"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "accidents",
+                        "field_label": "Does the Driver have any motor accidents or claims in the last 5 years?",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_mandatory": "yes",
+                        "field_options": [
+                            {
+                                "option_label": "Yes",
+                                "option_value": "Yes",
+                                "option_id": "yesclaim"
+                            },
+                            {
+                                "option_label": "No",
+                                "option_value": "No",
+                                "option_id": "noclaim"
+                            }
+                        ]
+                    }
+                ]
+            },
+                    {
+                        "layout": "",
+                        "fields": [
+                            {
+                                "field_id": "motoring convictions_Id",
+                                "field_label": "Does the driver have any motoring convictions, driving license, endorsements or fixed penalty points within last 5 years",
+                                "field_placeholder": "",
+                                "field_type": "select",
+                                "field_value": "",
+                                "field_mandatory": "yes",
+                                "errors": "",
+                                "field_options": [
+                                    {
+                                        "option_label": "Yes "
+                                    },
+                                    {
+                                        "option_label": "No"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                
+            
+        ]
+    }
+]
